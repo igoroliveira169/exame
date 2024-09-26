@@ -1,0 +1,189 @@
+2024-09-26T19:45:36.240-03:00  INFO 11112 --- [exame] [restartedMain] com.prova.exame.ExameApplication         : Starting ExameApplication using Java 17.0.10 with PID 11112 (C:\Users\FEF\Desktop\Lab3\exame\target\classes started by FEF in C:\Users\FEF\Desktop\Lab3\exame)
+2024-09-26T19:45:36.247-03:00  INFO 11112 --- [exame] [restartedMain] com.prova.exame.ExameApplication         : The following 1 profile is active: "test"
+2024-09-26T19:45:36.300-03:00  INFO 11112 --- [exame] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-26T19:45:36.301-03:00  INFO 11112 --- [exame] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-26T19:45:36.737-03:00  INFO 11112 --- [exame] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-26T19:45:36.776-03:00  INFO 11112 --- [exame] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interface.
+2024-09-26T19:45:37.499-03:00  INFO 11112 --- [exame] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-26T19:45:37.513-03:00  INFO 11112 --- [exame] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-26T19:45:37.513-03:00  INFO 11112 --- [exame] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-26T19:45:37.564-03:00  INFO 11112 --- [exame] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-26T19:45:37.564-03:00  INFO 11112 --- [exame] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1263 ms
+2024-09-26T19:45:37.595-03:00  INFO 11112 --- [exame] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-26T19:45:37.772-03:00  INFO 11112 --- [exame] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:examedb user=SA
+2024-09-26T19:45:37.774-03:00  INFO 11112 --- [exame] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-26T19:45:37.784-03:00  INFO 11112 --- [exame] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:examedb'
+2024-09-26T19:45:37.907-03:00  INFO 11112 --- [exame] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-26T19:45:37.954-03:00  INFO 11112 --- [exame] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-26T19:45:37.992-03:00  INFO 11112 --- [exame] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-26T19:45:38.273-03:00  INFO 11112 --- [exame] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-26T19:45:39.047-03:00  INFO 11112 --- [exame] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-26T19:45:39.072-03:00  INFO 11112 --- [exame] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26T19:45:39.422-03:00  WARN 11112 --- [exame] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-26T19:45:39.750-03:00  INFO 11112 --- [exame] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-26T19:45:39.778-03:00  INFO 11112 --- [exame] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-26T19:45:39.789-03:00  INFO 11112 --- [exame] [restartedMain] com.prova.exame.ExameApplication         : Started ExameApplication in 3.942 seconds (process running for 4.373)
+2024-09-26T19:46:56.924-03:00  INFO 11112 --- [exame] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-26T19:46:56.924-03:00  INFO 11112 --- [exame] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-26T19:46:56.925-03:00  INFO 11112 --- [exame] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-26T19:48:18.958-03:00  INFO 11112 --- [exame] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26T19:48:18.963-03:00  WARN 11112 --- [exame] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-09-26T19:48:18.963-03:00  INFO 11112 --- [exame] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-26T19:48:18.964-03:00  INFO 11112 --- [exame] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-26T19:50:57.830-03:00  INFO 2932 --- [exame] [restartedMain] com.prova.exame.ExameApplication         : Starting ExameApplication using Java 17.0.10 with PID 2932 (C:\Users\FEF\Desktop\Lab3\exame\target\classes started by FEF in C:\Users\FEF\Desktop\Lab3\exame)
+2024-09-26T19:50:57.832-03:00  INFO 2932 --- [exame] [restartedMain] com.prova.exame.ExameApplication         : The following 1 profile is active: "test"
+2024-09-26T19:50:57.899-03:00  INFO 2932 --- [exame] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-26T19:50:57.899-03:00  INFO 2932 --- [exame] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-26T19:50:58.349-03:00  INFO 2932 --- [exame] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-26T19:50:58.383-03:00  INFO 2932 --- [exame] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interface.
+2024-09-26T19:50:59.159-03:00  INFO 2932 --- [exame] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-26T19:50:59.175-03:00  INFO 2932 --- [exame] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-26T19:50:59.176-03:00  INFO 2932 --- [exame] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-26T19:50:59.231-03:00  INFO 2932 --- [exame] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-26T19:50:59.232-03:00  INFO 2932 --- [exame] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1331 ms
+2024-09-26T19:50:59.273-03:00  INFO 2932 --- [exame] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-26T19:50:59.462-03:00  INFO 2932 --- [exame] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:examedb user=SA
+2024-09-26T19:50:59.463-03:00  INFO 2932 --- [exame] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-26T19:50:59.477-03:00  INFO 2932 --- [exame] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:examedb'
+2024-09-26T19:50:59.598-03:00  INFO 2932 --- [exame] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-26T19:50:59.645-03:00  INFO 2932 --- [exame] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-26T19:50:59.677-03:00  INFO 2932 --- [exame] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-26T19:50:59.968-03:00  INFO 2932 --- [exame] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-26T19:51:00.710-03:00  INFO 2932 --- [exame] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-26T19:51:00.729-03:00  INFO 2932 --- [exame] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26T19:51:01.084-03:00  WARN 2932 --- [exame] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-26T19:51:01.364-03:00  INFO 2932 --- [exame] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-26T19:51:01.391-03:00  INFO 2932 --- [exame] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-26T19:51:01.401-03:00  INFO 2932 --- [exame] [restartedMain] com.prova.exame.ExameApplication         : Started ExameApplication in 3.987 seconds (process running for 4.45)
+2024-09-26T19:51:06.356-03:00  INFO 2932 --- [exame] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-26T19:51:06.356-03:00  INFO 2932 --- [exame] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-26T19:51:06.357-03:00  INFO 2932 --- [exame] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-26T19:51:53.653-03:00  INFO 2932 --- [exame] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26T19:51:53.659-03:00  WARN 2932 --- [exame] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-09-26T19:51:53.659-03:00  INFO 2932 --- [exame] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-26T19:51:53.661-03:00  INFO 2932 --- [exame] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-26T19:57:50.418-03:00  INFO 19280 --- [exame] [restartedMain] com.prova.exame.ExameApplication         : Starting ExameApplication using Java 17.0.10 with PID 19280 (C:\Users\FEF\Desktop\Lab3\exame\target\classes started by FEF in C:\Users\FEF\Desktop\Lab3\exame)
+2024-09-26T19:57:50.421-03:00  INFO 19280 --- [exame] [restartedMain] com.prova.exame.ExameApplication         : The following 1 profile is active: "test"
+2024-09-26T19:57:50.488-03:00  INFO 19280 --- [exame] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-26T19:57:50.488-03:00  INFO 19280 --- [exame] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-26T19:57:50.945-03:00  INFO 19280 --- [exame] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-26T19:57:50.984-03:00  INFO 19280 --- [exame] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interface.
+2024-09-26T19:57:51.845-03:00  INFO 19280 --- [exame] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-26T19:57:51.863-03:00  INFO 19280 --- [exame] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-26T19:57:51.863-03:00  INFO 19280 --- [exame] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-26T19:57:51.922-03:00  INFO 19280 --- [exame] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-26T19:57:51.923-03:00  INFO 19280 --- [exame] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1435 ms
+2024-09-26T19:57:51.958-03:00  INFO 19280 --- [exame] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-26T19:57:52.146-03:00  INFO 19280 --- [exame] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:examedb user=SA
+2024-09-26T19:57:52.148-03:00  INFO 19280 --- [exame] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-26T19:57:52.159-03:00  INFO 19280 --- [exame] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:examedb'
+2024-09-26T19:57:52.296-03:00  INFO 19280 --- [exame] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-26T19:57:52.366-03:00  INFO 19280 --- [exame] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-26T19:57:52.409-03:00  INFO 19280 --- [exame] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-26T19:57:52.662-03:00  INFO 19280 --- [exame] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-26T19:57:53.300-03:00  INFO 19280 --- [exame] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-26T19:57:53.324-03:00  INFO 19280 --- [exame] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26T19:57:53.686-03:00  WARN 19280 --- [exame] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-26T19:57:53.981-03:00  INFO 19280 --- [exame] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-26T19:57:54.005-03:00  INFO 19280 --- [exame] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-26T19:57:54.015-03:00  INFO 19280 --- [exame] [restartedMain] com.prova.exame.ExameApplication         : Started ExameApplication in 3.996 seconds (process running for 4.402)
+2024-09-26T19:58:01.667-03:00  INFO 19280 --- [exame] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-26T19:58:01.667-03:00  INFO 19280 --- [exame] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-26T19:58:01.668-03:00  INFO 19280 --- [exame] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-26T20:01:21.934-03:00  INFO 19280 --- [exame] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26T20:01:21.939-03:00  WARN 19280 --- [exame] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-09-26T20:01:21.939-03:00  INFO 19280 --- [exame] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-26T20:01:21.941-03:00  INFO 19280 --- [exame] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-26T20:02:38.580-03:00  INFO 22232 --- [exame] [restartedMain] com.prova.exame.ExameApplication         : Starting ExameApplication using Java 17.0.10 with PID 22232 (C:\Users\FEF\Desktop\Lab3\exame\target\classes started by FEF in C:\Users\FEF\Desktop\Lab3\exame)
+2024-09-26T20:02:38.582-03:00  INFO 22232 --- [exame] [restartedMain] com.prova.exame.ExameApplication         : The following 1 profile is active: "test"
+2024-09-26T20:02:38.643-03:00  INFO 22232 --- [exame] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-26T20:02:38.643-03:00  INFO 22232 --- [exame] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-26T20:02:39.100-03:00  INFO 22232 --- [exame] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-26T20:02:39.134-03:00  INFO 22232 --- [exame] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interface.
+2024-09-26T20:02:39.824-03:00  INFO 22232 --- [exame] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-26T20:02:39.837-03:00  INFO 22232 --- [exame] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-26T20:02:39.837-03:00  INFO 22232 --- [exame] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-26T20:02:39.885-03:00  INFO 22232 --- [exame] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-26T20:02:39.885-03:00  INFO 22232 --- [exame] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1241 ms
+2024-09-26T20:02:39.922-03:00  INFO 22232 --- [exame] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-26T20:02:40.056-03:00  INFO 22232 --- [exame] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:examedb user=SA
+2024-09-26T20:02:40.057-03:00  INFO 22232 --- [exame] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-26T20:02:40.068-03:00  INFO 22232 --- [exame] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:examedb'
+2024-09-26T20:02:40.189-03:00  INFO 22232 --- [exame] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-26T20:02:40.234-03:00  INFO 22232 --- [exame] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-26T20:02:40.270-03:00  INFO 22232 --- [exame] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-26T20:02:40.544-03:00  INFO 22232 --- [exame] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-26T20:02:41.207-03:00  INFO 22232 --- [exame] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-26T20:02:41.227-03:00  INFO 22232 --- [exame] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26T20:02:41.538-03:00  WARN 22232 --- [exame] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-26T20:02:41.818-03:00  INFO 22232 --- [exame] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-26T20:02:41.849-03:00  INFO 22232 --- [exame] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-26T20:02:41.858-03:00  INFO 22232 --- [exame] [restartedMain] com.prova.exame.ExameApplication         : Started ExameApplication in 3.64 seconds (process running for 4.04)
+2024-09-26T20:03:14.749-03:00  INFO 22232 --- [exame] [http-nio-8080-exec-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-26T20:03:14.749-03:00  INFO 22232 --- [exame] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-26T20:03:14.751-03:00  INFO 22232 --- [exame] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-09-26T20:05:01.882-03:00  INFO 22232 --- [exame] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26T20:05:01.887-03:00  WARN 22232 --- [exame] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-09-26T20:05:01.888-03:00  INFO 22232 --- [exame] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-26T20:05:01.889-03:00  INFO 22232 --- [exame] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-26T20:05:34.781-03:00  INFO 8616 --- [exame] [restartedMain] com.prova.exame.ExameApplication         : Starting ExameApplication using Java 17.0.10 with PID 8616 (C:\Users\FEF\Desktop\Lab3\exame\target\classes started by FEF in C:\Users\FEF\Desktop\Lab3\exame)
+2024-09-26T20:05:34.784-03:00  INFO 8616 --- [exame] [restartedMain] com.prova.exame.ExameApplication         : The following 1 profile is active: "test"
+2024-09-26T20:05:34.849-03:00  INFO 8616 --- [exame] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-26T20:05:34.849-03:00  INFO 8616 --- [exame] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-26T20:05:35.267-03:00  INFO 8616 --- [exame] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-26T20:05:35.300-03:00  INFO 8616 --- [exame] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interface.
+2024-09-26T20:05:36.088-03:00  INFO 8616 --- [exame] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-26T20:05:36.104-03:00  INFO 8616 --- [exame] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-26T20:05:36.104-03:00  INFO 8616 --- [exame] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-26T20:05:36.158-03:00  INFO 8616 --- [exame] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-26T20:05:36.159-03:00  INFO 8616 --- [exame] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1309 ms
+2024-09-26T20:05:36.199-03:00  INFO 8616 --- [exame] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-26T20:05:36.368-03:00  INFO 8616 --- [exame] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:examedb user=SA
+2024-09-26T20:05:36.369-03:00  INFO 8616 --- [exame] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-26T20:05:36.378-03:00  INFO 8616 --- [exame] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:examedb'
+2024-09-26T20:05:36.503-03:00  INFO 8616 --- [exame] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-26T20:05:36.562-03:00  INFO 8616 --- [exame] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-26T20:05:36.603-03:00  INFO 8616 --- [exame] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-26T20:05:36.889-03:00  INFO 8616 --- [exame] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-26T20:05:37.585-03:00  INFO 8616 --- [exame] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-26T20:05:37.617-03:00  INFO 8616 --- [exame] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26T20:05:37.996-03:00  WARN 8616 --- [exame] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-26T20:05:38.295-03:00  INFO 8616 --- [exame] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-26T20:05:38.324-03:00  INFO 8616 --- [exame] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-26T20:05:38.333-03:00  INFO 8616 --- [exame] [restartedMain] com.prova.exame.ExameApplication         : Started ExameApplication in 3.969 seconds (process running for 4.369)
+2024-09-26T20:08:06.135-03:00  INFO 8616 --- [exame] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26T20:08:06.140-03:00  WARN 8616 --- [exame] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-09-26T20:08:06.140-03:00  INFO 8616 --- [exame] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-26T20:08:06.142-03:00  INFO 8616 --- [exame] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-26T20:14:13.486-03:00  INFO 31420 --- [exame] [restartedMain] com.prova.exame.ExameApplication         : Starting ExameApplication using Java 17.0.10 with PID 31420 (C:\Users\FEF\Desktop\Lab3\exame\target\classes started by FEF in C:\Users\FEF\Desktop\Lab3\exame)
+2024-09-26T20:14:13.489-03:00  INFO 31420 --- [exame] [restartedMain] com.prova.exame.ExameApplication         : The following 1 profile is active: "test"
+2024-09-26T20:14:13.546-03:00  INFO 31420 --- [exame] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-26T20:14:13.547-03:00  INFO 31420 --- [exame] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-26T20:14:13.975-03:00  INFO 31420 --- [exame] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-26T20:14:14.015-03:00  INFO 31420 --- [exame] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interface.
+2024-09-26T20:14:14.735-03:00  INFO 31420 --- [exame] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-26T20:14:14.749-03:00  INFO 31420 --- [exame] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-26T20:14:14.749-03:00  INFO 31420 --- [exame] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-26T20:14:14.796-03:00  INFO 31420 --- [exame] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-26T20:14:14.796-03:00  INFO 31420 --- [exame] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1249 ms
+2024-09-26T20:14:14.827-03:00  INFO 31420 --- [exame] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-26T20:14:14.976-03:00  INFO 31420 --- [exame] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:examedb user=SA
+2024-09-26T20:14:14.978-03:00  INFO 31420 --- [exame] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-26T20:14:14.988-03:00  INFO 31420 --- [exame] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:examedb'
+2024-09-26T20:14:15.125-03:00  INFO 31420 --- [exame] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-26T20:14:15.176-03:00  INFO 31420 --- [exame] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-26T20:14:15.212-03:00  INFO 31420 --- [exame] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-26T20:14:15.472-03:00  INFO 31420 --- [exame] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-26T20:14:16.149-03:00  INFO 31420 --- [exame] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-26T20:14:16.170-03:00  INFO 31420 --- [exame] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26T20:14:16.477-03:00  WARN 31420 --- [exame] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-26T20:14:16.754-03:00  INFO 31420 --- [exame] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-26T20:14:16.781-03:00  INFO 31420 --- [exame] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-26T20:14:16.792-03:00  INFO 31420 --- [exame] [restartedMain] com.prova.exame.ExameApplication         : Started ExameApplication in 3.704 seconds (process running for 4.11)
+2024-09-26T20:14:28.285-03:00  INFO 31420 --- [exame] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-26T20:14:28.286-03:00  INFO 31420 --- [exame] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-26T20:14:28.287-03:00  INFO 31420 --- [exame] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-26T20:25:35.782-03:00  INFO 31420 --- [exame] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26T20:25:35.787-03:00  WARN 31420 --- [exame] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-09-26T20:25:35.788-03:00  INFO 31420 --- [exame] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-26T20:25:35.789-03:00  INFO 31420 --- [exame] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

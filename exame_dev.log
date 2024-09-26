@@ -1,0 +1,111 @@
+2024-09-19T20:26:49.262-03:00  INFO 31012 --- [exame] [restartedMain] com.prova.exame.ExameApplication         : Starting ExameApplication using Java 17.0.10 with PID 31012 (C:\Users\FEF\Desktop\Lab3\exame\target\classes started by FEF in C:\Users\FEF\Desktop\Lab3\exame)
+2024-09-19T20:26:49.264-03:00  INFO 31012 --- [exame] [restartedMain] com.prova.exame.ExameApplication         : The following 1 profile is active: "dev"
+2024-09-19T20:26:49.314-03:00  INFO 31012 --- [exame] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-19T20:26:49.317-03:00  INFO 31012 --- [exame] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-19T20:26:49.663-03:00  INFO 31012 --- [exame] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-19T20:26:49.694-03:00  INFO 31012 --- [exame] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interface.
+2024-09-19T20:26:50.309-03:00  INFO 31012 --- [exame] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-19T20:26:50.319-03:00  INFO 31012 --- [exame] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-19T20:26:50.319-03:00  INFO 31012 --- [exame] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-19T20:26:50.353-03:00  INFO 31012 --- [exame] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-19T20:26:50.353-03:00  INFO 31012 --- [exame] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1036 ms
+2024-09-19T20:26:50.377-03:00  INFO 31012 --- [exame] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-19T20:26:50.503-03:00  INFO 31012 --- [exame] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@73926f94
+2024-09-19T20:26:50.504-03:00  INFO 31012 --- [exame] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-19T20:26:50.511-03:00  INFO 31012 --- [exame] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/examedb'
+2024-09-19T20:26:50.613-03:00  INFO 31012 --- [exame] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-19T20:26:50.651-03:00  INFO 31012 --- [exame] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-19T20:26:50.678-03:00  INFO 31012 --- [exame] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-19T20:26:50.873-03:00  INFO 31012 --- [exame] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-19T20:26:51.350-03:00  INFO 31012 --- [exame] [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.prova.domains.Paciente (class must be instantiated by Interceptor)
+2024-09-19T20:26:51.438-03:00  INFO 31012 --- [exame] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-19T20:26:51.449-03:00 DEBUG 31012 --- [exame] [restartedMain] org.hibernate.SQL                        : drop table if exists paciente cascade
+2024-09-19T20:26:51.452-03:00  WARN 31012 --- [exame] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-09-19T20:26:51.453-03:00  WARN 31012 --- [exame] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "paciente" does not exist, skipping
+2024-09-19T20:26:51.453-03:00 DEBUG 31012 --- [exame] [restartedMain] org.hibernate.SQL                        : drop sequence if exists seq_paciente
+2024-09-19T20:26:51.453-03:00  WARN 31012 --- [exame] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-09-19T20:26:51.453-03:00  WARN 31012 --- [exame] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "seq_paciente" does not exist, skipping
+2024-09-19T20:26:51.456-03:00 DEBUG 31012 --- [exame] [restartedMain] org.hibernate.SQL                        : create sequence seq_paciente start with 1 increment by 50
+2024-09-19T20:26:51.463-03:00 DEBUG 31012 --- [exame] [restartedMain] org.hibernate.SQL                        : create table paciente (custo_internacao numeric(18,3) not null, data_nascimento date, id bigint not null, nome varchar(255) not null, primary key (id))
+2024-09-19T20:26:51.474-03:00  INFO 31012 --- [exame] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-19T20:26:51.662-03:00  WARN 31012 --- [exame] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-19T20:26:51.907-03:00  INFO 31012 --- [exame] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-19T20:26:51.933-03:00  INFO 31012 --- [exame] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-19T20:26:51.942-03:00  INFO 31012 --- [exame] [restartedMain] com.prova.exame.ExameApplication         : Started ExameApplication in 3.019 seconds (process running for 3.341)
+2024-09-19T20:40:31.715-03:00  INFO 31012 --- [exame] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-19T20:40:31.718-03:00  INFO 31012 --- [exame] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-19T20:40:31.720-03:00  INFO 31012 --- [exame] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-19T20:47:13.894-03:00  INFO 8740 --- [exame] [restartedMain] com.prova.exame.ExameApplication         : Starting ExameApplication using Java 17.0.10 with PID 8740 (C:\Users\FEF\Desktop\Lab3\exame\target\classes started by FEF in C:\Users\FEF\Desktop\Lab3\exame)
+2024-09-19T20:47:13.896-03:00  INFO 8740 --- [exame] [restartedMain] com.prova.exame.ExameApplication         : The following 1 profile is active: "dev"
+2024-09-19T20:47:13.950-03:00  INFO 8740 --- [exame] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-19T20:47:13.950-03:00  INFO 8740 --- [exame] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-19T20:47:14.333-03:00  INFO 8740 --- [exame] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-19T20:47:14.365-03:00  INFO 8740 --- [exame] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interface.
+2024-09-19T20:47:14.966-03:00  INFO 8740 --- [exame] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-19T20:47:14.977-03:00  INFO 8740 --- [exame] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-19T20:47:14.978-03:00  INFO 8740 --- [exame] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-19T20:47:15.021-03:00  INFO 8740 --- [exame] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-19T20:47:15.022-03:00  INFO 8740 --- [exame] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1071 ms
+2024-09-19T20:47:15.056-03:00  INFO 8740 --- [exame] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-19T20:47:15.194-03:00  INFO 8740 --- [exame] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6a9d04d
+2024-09-19T20:47:15.195-03:00  INFO 8740 --- [exame] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-19T20:47:15.204-03:00  INFO 8740 --- [exame] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/examedb'
+2024-09-19T20:47:15.300-03:00  INFO 8740 --- [exame] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-19T20:47:15.343-03:00  INFO 8740 --- [exame] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-19T20:47:15.369-03:00  INFO 8740 --- [exame] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-19T20:47:15.572-03:00  INFO 8740 --- [exame] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-19T20:47:16.122-03:00  INFO 8740 --- [exame] [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.prova.domains.Paciente (class must be instantiated by Interceptor)
+2024-09-19T20:47:16.223-03:00  INFO 8740 --- [exame] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-19T20:47:16.230-03:00 DEBUG 8740 --- [exame] [restartedMain] org.hibernate.SQL                        : drop table if exists paciente cascade
+2024-09-19T20:47:16.238-03:00 DEBUG 8740 --- [exame] [restartedMain] org.hibernate.SQL                        : drop sequence if exists seq_paciente
+2024-09-19T20:47:16.242-03:00 DEBUG 8740 --- [exame] [restartedMain] org.hibernate.SQL                        : create sequence seq_paciente start with 1 increment by 50
+2024-09-19T20:47:16.246-03:00 DEBUG 8740 --- [exame] [restartedMain] org.hibernate.SQL                        : create table paciente (custo_internacao numeric(18,3) not null, id bigint not null, data_nascimento varchar(255) not null, nome varchar(255) not null, primary key (id))
+2024-09-19T20:47:16.254-03:00  INFO 8740 --- [exame] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-19T20:47:16.436-03:00 DEBUG 8740 --- [exame] [restartedMain] org.hibernate.SQL                        : select nextval('seq_paciente')
+2024-09-19T20:47:16.469-03:00 DEBUG 8740 --- [exame] [restartedMain] org.hibernate.SQL                        : insert into paciente (custo_internacao,data_nascimento,nome,id) values (?,?,?,?)
+2024-09-19T20:47:16.479-03:00 DEBUG 8740 --- [exame] [restartedMain] org.hibernate.SQL                        : select nextval('seq_paciente')
+2024-09-19T20:47:16.480-03:00 DEBUG 8740 --- [exame] [restartedMain] org.hibernate.SQL                        : insert into paciente (custo_internacao,data_nascimento,nome,id) values (?,?,?,?)
+2024-09-19T20:47:16.521-03:00  WARN 8740 --- [exame] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-19T20:47:16.769-03:00  INFO 8740 --- [exame] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-19T20:47:16.797-03:00  INFO 8740 --- [exame] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-19T20:47:16.807-03:00  INFO 8740 --- [exame] [restartedMain] com.prova.exame.ExameApplication         : Started ExameApplication in 3.237 seconds (process running for 3.604)
+2024-09-19T21:06:23.110-03:00  INFO 8740 --- [exame] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-19T21:06:23.113-03:00  INFO 8740 --- [exame] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-19T21:06:23.117-03:00  INFO 8740 --- [exame] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-19T21:06:31.535-03:00  INFO 30084 --- [exame] [restartedMain] com.prova.exame.ExameApplication         : Starting ExameApplication using Java 17.0.10 with PID 30084 (C:\Users\FEF\Desktop\Lab3\exame\target\classes started by FEF in C:\Users\FEF\Desktop\Lab3\exame)
+2024-09-19T21:06:31.537-03:00  INFO 30084 --- [exame] [restartedMain] com.prova.exame.ExameApplication         : The following 1 profile is active: "dev"
+2024-09-19T21:06:31.597-03:00  INFO 30084 --- [exame] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-19T21:06:31.597-03:00  INFO 30084 --- [exame] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-19T21:06:31.989-03:00  INFO 30084 --- [exame] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-19T21:06:32.019-03:00  INFO 30084 --- [exame] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interface.
+2024-09-19T21:06:32.657-03:00  INFO 30084 --- [exame] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-19T21:06:32.667-03:00  INFO 30084 --- [exame] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-19T21:06:32.667-03:00  INFO 30084 --- [exame] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-19T21:06:32.706-03:00  INFO 30084 --- [exame] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-19T21:06:32.706-03:00  INFO 30084 --- [exame] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1109 ms
+2024-09-19T21:06:32.727-03:00  INFO 30084 --- [exame] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-19T21:06:32.874-03:00  INFO 30084 --- [exame] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4eeed288
+2024-09-19T21:06:32.876-03:00  INFO 30084 --- [exame] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-19T21:06:32.885-03:00  INFO 30084 --- [exame] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/examedb'
+2024-09-19T21:06:32.979-03:00  INFO 30084 --- [exame] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-19T21:06:33.028-03:00  INFO 30084 --- [exame] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-19T21:06:33.057-03:00  INFO 30084 --- [exame] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-19T21:06:33.273-03:00  INFO 30084 --- [exame] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-19T21:06:33.791-03:00  INFO 30084 --- [exame] [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.prova.domains.Paciente (class must be instantiated by Interceptor)
+2024-09-19T21:06:33.897-03:00  INFO 30084 --- [exame] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-19T21:06:33.906-03:00 DEBUG 30084 --- [exame] [restartedMain] org.hibernate.SQL                        : drop table if exists paciente cascade
+2024-09-19T21:06:33.909-03:00 DEBUG 30084 --- [exame] [restartedMain] org.hibernate.SQL                        : drop sequence if exists seq_paciente
+2024-09-19T21:06:33.913-03:00 DEBUG 30084 --- [exame] [restartedMain] org.hibernate.SQL                        : create sequence seq_paciente start with 1 increment by 50
+2024-09-19T21:06:33.917-03:00 DEBUG 30084 --- [exame] [restartedMain] org.hibernate.SQL                        : create table paciente (custo_internacao numeric(18,3) not null, id bigint not null, data_nascimento varchar(255) not null, nome varchar(255) not null, primary key (id))
+2024-09-19T21:06:33.924-03:00  INFO 30084 --- [exame] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-19T21:06:34.106-03:00 DEBUG 30084 --- [exame] [restartedMain] org.hibernate.SQL                        : select nextval('seq_paciente')
+2024-09-19T21:06:34.138-03:00 DEBUG 30084 --- [exame] [restartedMain] org.hibernate.SQL                        : insert into paciente (custo_internacao,data_nascimento,nome,id) values (?,?,?,?)
+2024-09-19T21:06:34.146-03:00 DEBUG 30084 --- [exame] [restartedMain] org.hibernate.SQL                        : select nextval('seq_paciente')
+2024-09-19T21:06:34.147-03:00 DEBUG 30084 --- [exame] [restartedMain] org.hibernate.SQL                        : insert into paciente (custo_internacao,data_nascimento,nome,id) values (?,?,?,?)
+2024-09-19T21:06:34.195-03:00  WARN 30084 --- [exame] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-19T21:06:34.431-03:00  INFO 30084 --- [exame] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-19T21:06:34.458-03:00  INFO 30084 --- [exame] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-19T21:06:34.467-03:00  INFO 30084 --- [exame] [restartedMain] com.prova.exame.ExameApplication         : Started ExameApplication in 3.242 seconds (process running for 3.577)
+2024-09-19T21:06:49.108-03:00  INFO 30084 --- [exame] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-19T21:06:49.110-03:00  INFO 30084 --- [exame] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-19T21:06:49.114-03:00  INFO 30084 --- [exame] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

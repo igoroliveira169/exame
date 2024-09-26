@@ -1,0 +1,28 @@
+2024-09-19T20:08:00.712-03:00  INFO 11856 --- [exame] [restartedMain] com.prova.exame.ExameApplication         : Starting ExameApplication using Java 17.0.10 with PID 11856 (C:\Users\FEF\Desktop\Lab3\exame\target\classes started by FEF in C:\Users\FEF\Desktop\Lab3\exame)
+2024-09-19T20:08:00.715-03:00  INFO 11856 --- [exame] [restartedMain] com.prova.exame.ExameApplication         : The following 1 profile is active: "dev"
+2024-09-19T20:08:00.753-03:00  INFO 11856 --- [exame] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-19T20:08:00.755-03:00  INFO 11856 --- [exame] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-19T20:08:01.252-03:00  INFO 11856 --- [exame] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-19T20:08:01.266-03:00  INFO 11856 --- [exame] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2024-09-19T20:08:01.787-03:00  INFO 11856 --- [exame] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-19T20:08:01.799-03:00  INFO 11856 --- [exame] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-19T20:08:01.800-03:00  INFO 11856 --- [exame] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-19T20:08:01.838-03:00  INFO 11856 --- [exame] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-19T20:08:01.838-03:00  INFO 11856 --- [exame] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1082 ms
+2024-09-19T20:08:01.864-03:00  INFO 11856 --- [exame] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-19T20:08:02.143-03:00  INFO 11856 --- [exame] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@262fa233
+2024-09-19T20:08:02.145-03:00  INFO 11856 --- [exame] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-19T20:08:02.155-03:00  INFO 11856 --- [exame] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/examedb'
+2024-09-19T20:08:02.245-03:00  INFO 11856 --- [exame] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-19T20:08:02.284-03:00  INFO 11856 --- [exame] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-19T20:08:02.306-03:00  INFO 11856 --- [exame] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-19T20:08:02.530-03:00  INFO 11856 --- [exame] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-19T20:08:02.809-03:00  INFO 11856 --- [exame] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-19T20:08:02.813-03:00  INFO 11856 --- [exame] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-19T20:08:02.854-03:00  WARN 11856 --- [exame] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-19T20:08:03.110-03:00  INFO 11856 --- [exame] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-19T20:08:03.133-03:00  INFO 11856 --- [exame] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-19T20:08:03.140-03:00  INFO 11856 --- [exame] [restartedMain] com.prova.exame.ExameApplication         : Started ExameApplication in 2.764 seconds (process running for 3.094)
+2024-09-19T20:08:20.501-03:00  INFO 11856 --- [exame] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-19T20:08:20.505-03:00  INFO 11856 --- [exame] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-19T20:08:20.507-03:00  INFO 11856 --- [exame] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
